@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  position: relative;
+  background-image: url('background-image.jpg');
+  background-size: cover;
+}
+
+#counter {
+  text-align: center;
+  margin-top: 180px;
+}
+
+button{
+  margin-top: 200px;
+  padding: 30px 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+h1 {
+  text-align: center;
+  color: antiquewhite;
+  font-size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#count {
+  background-color: #f2f2f2;
+  padding: 30px 40px;
+  font-size: 24px;
+  margin: 0 5px;
+  border:none;
+  border-radius: 5px;
+
+}
+
+#inputSection {
+  padding: 30px 40px;
+  text-align: center;
+  margin-top: 20px;
+  color: #f2f2f2;
+}
+
+input {
+  text-align: center;
+  padding: 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+#incrementButton {
+
+  padding: 30px 40px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#reset {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#reset:hover {
+  background-color: #eea3a3;
+}
+
+#increment:hover {
+  background-color: #9ee7a6;
+}
+#decrement:hover {
+  background-color: #9ee7a6
+}
+#incrementButton:hover {
+  background-color: #9ee7a6;
+}
